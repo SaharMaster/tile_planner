@@ -1,0 +1,49 @@
+/* Global theme tokens via CSS custom properties */
+:root {
+  /* Palette - slate-like defaults */
+  --white: #ffffff;
+  --color-layout-bg: #f2f6fa; /* slate-50 */
+  --color-layout-border: #d9e1e7; /* slate-300 */
+  --color-layout-surface-1: #eaecf7; /* slate-100 */
+  --color-placeholder-text: #0f172a; /* slate-900 */
+  --color-placeholder-text-muted: #64748b; /* slate-500 */
+
+  /* Radii */
+  --radius-none: 0;
+  --layout-corner-radius: 10px;
+
+  /* Borders */
+  --border-none: none;
+  --border-layout-tile: 2px solid var(--color-layout-border);
+  --border-width: 2px;
+
+  /* Shadows */
+  --shadow-layout: 0 1px 2px rgba(2, 6, 23, 0.06);
+  --shadow-inset-layout: inset 0 1px 1px rgba(2, 6, 23, 0.04);
+
+  /* Spacing scale */
+  --padding-none: 0;
+  --layout-padding: 0.5rem;
+  --text-layout-padding: 1rem;
+
+  /* Layout sizes */
+  --left-pane-width: 16rem; /* 64 */
+  --shortcut-height: 16rem; /* 64 */
+}
+
+/* Base document styles */
+html, body, #svelte {
+  height: 100%;
+}
+
+body {
+  background: var(--white);
+  color: var(--color-text);
+}
+
+.panel {
+  background: var(--color-layout-surface-1);
+  border: var(--border-width) solid var(--color-layout-border);
+  border-radius: var(--layout-corner-radius);
+  box-shadow: var(--shadow-inset-layout);
+}
