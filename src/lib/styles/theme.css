@@ -1,22 +1,24 @@
 /* Global theme tokens via CSS custom properties */
 :root {
   /* Palette - slate-like defaults */
-  --white: #ffffff;
-  --color-layout-bg: #f2f6fa; /* light-slate */
-  --color-layout-border: #d9e1e7; /* border-slate */
-  --color-layout-surface-1: #eaecf7; /* lighter / bg */
-  --color-layout-surface-2: #c9d4ec; /* darker / accents */
-  --color-placeholder-text: #0f172a; /* slate-900 */
-  --color-placeholder-text-muted: #64748b; /* slate-500 */
+  --white: #fefefe;
+  --color-layout-bg: #f8fafc; /* warm white with slight blue tint */
+  --color-layout-border: #e2e8f0; /* soft gray-blue border */
+  --color-layout-surface-1: #f1f5f9; /* subtle warm surface */
+  --color-layout-surface-2: #cbd5e1; /* gentle blue-gray accent */
+  --color-placeholder-text: #1e293b; /* softer dark gray */
+  --color-placeholder-text-muted: #64748b; /* balanced gray */
 
   /* Radii */
   --radius-none: 0;
   --layout-corner-radius: 10px;
+  --rounded-full: 9999px;
 
   /* Borders */
   --border-none: none;
   --border-layout-tile: 2px solid var(--color-layout-border);
   --border-width: 2px;
+  --board-item-border-width: 2px;
 
   /* Shadows */
   --shadow-layout: 0 1px 2px rgba(2, 6, 23, 0.06);
@@ -30,6 +32,10 @@
   /* Layout sizes */
   --left-pane-width: 16rem; /* 64 */
   --shortcut-height: 16rem; /* 64 */
+
+  /* Elements */
+  --divider-gap: clamp(8px, 2vw, var(--layout-padding));
+  
 }
 
 /* Base document styles */

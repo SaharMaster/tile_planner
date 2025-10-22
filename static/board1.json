@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "count": 3,
+  "boards": [
+    {
+      "id": 1,
+      "user_id": 42,
+      "folder_id": null,
+      "name": "Kitchen",
+      "style": "modern",
+      "order_index": 0
+    },
+    {
+      "id": 2,
+      "user_id": 42,
+      "folder_id": 7,
+      "name": "Bathroom Tiles",
+      "style": "industrial",
+      "order_index": 1
+    },
+    {
+      "id": 3,
+      "user_id": 99,
+      "folder_id": null,
+      "name": "Outdoor Patio",
+      "style": "minimal", 
+      "order_index": 2
+    }
+  ]
+}
