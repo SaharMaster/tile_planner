@@ -1,6 +1,6 @@
 <script>
-  import ShortcutIsland from './ShortcutIsland.svelte';
   import BoardsSpace from './boardsSpace.svelte';
+  import ShortcutIsland from './shortcutIsland.svelte';
 </script>
 
 <div class="left-pane">

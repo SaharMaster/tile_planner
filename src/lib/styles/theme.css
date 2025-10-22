@@ -2,9 +2,10 @@
 :root {
   /* Palette - slate-like defaults */
   --white: #ffffff;
-  --color-layout-bg: #f2f6fa; /* slate-50 */
-  --color-layout-border: #d9e1e7; /* slate-300 */
-  --color-layout-surface-1: #eaecf7; /* slate-100 */
+  --color-layout-bg: #f2f6fa; /* light-slate */
+  --color-layout-border: #d9e1e7; /* border-slate */
+  --color-layout-surface-1: #eaecf7; /* lighter / bg */
+  --color-layout-surface-2: #c9d4ec; /* darker / accents */
   --color-placeholder-text: #0f172a; /* slate-900 */
   --color-placeholder-text-muted: #64748b; /* slate-500 */
 
